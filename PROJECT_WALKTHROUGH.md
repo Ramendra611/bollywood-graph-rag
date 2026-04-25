@@ -687,7 +687,7 @@ All nodes reachable from a starting node by following at most N relationship ste
 
 ---
 
-*This content is part of **Codeverra** — a platform for learning coding, data science, DSA, and AI from scratch.  
+*This content is part of **Codeverra** - a platform for learning coding, data science, DSA, and AI from scratch.  
 Explore more: https://codeverra.com*
 
 ---
