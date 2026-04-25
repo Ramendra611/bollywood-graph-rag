@@ -278,4 +278,4 @@ RETURN m.title, m.year, m.box_office_crore ORDER BY m.box_office_crore DESC
 
 ---
 
-*Built as part of the GraphRAG Masterclass at [CodeVerra](https://www.codeverra.com)*
+*Built as part of the GraphRAG Masterclass at [codeverra](https://www.codeverra.com)*
