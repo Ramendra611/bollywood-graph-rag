@@ -119,22 +119,31 @@ python embeddings.py
 
 This calls the OpenAI embeddings API for each node and stores the vectors in Neo4j. Run once; re-running is safe (overwrites existing embeddings).
 
-### 6. Run the Streamlit app
+### 6. Start the FastAPI backend
+
+The Streamlit app talks to FastAPI over HTTP — FastAPI must be running first.
 
 ```bash
+# Still inside src/
+uvicorn api:app --reload --port 8000
+```
+
+Leave this terminal running. Open http://localhost:8000/docs to confirm it's up.
+
+### 7. Run the Streamlit app
+
+Open a **new terminal**, activate the venv, then:
+
+```bash
+cd src
 streamlit run app.py
 ```
 
 Open http://localhost:8501
 
-### 7. (Optional) Run the FastAPI backend separately
+> **Note:** You need both terminals running at the same time — one for FastAPI, one for Streamlit. Neo4j (Docker) must also be up. The easiest way to run everything together is Docker Compose (step 8).
 
-```bash
-uvicorn api:app --reload --port 8000
-# API docs at http://localhost:8000/docs
-```
-
-### 8. (Optional) Start everything with Docker Compose
+### 8. (Recommended) Start everything with Docker Compose
 
 ```bash
 docker compose up --build
