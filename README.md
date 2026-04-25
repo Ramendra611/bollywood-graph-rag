@@ -3,6 +3,9 @@
 A complete GraphRAG (Graph Retrieval-Augmented Generation) system built on a **Bollywood knowledge graph**. Ask questions about Hindi cinema in plain English — the system finds the answer by traversing a Neo4j graph of movies, actors, directors, composers, and awards, then generating a natural language response via GPT-4o.
 
 ---
+Built as part of **Codeverra** to help you learn coding, DSA, data science, and AI the right way. Learn more: https://codeverra.com
+
+---
 
 ## What This Project Demonstrates
 

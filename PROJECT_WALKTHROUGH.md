@@ -2,7 +2,7 @@
 
 A plain-English guide to every concept, every file, and every design decision in this project.
 
----
+
 
 ## Table of Contents
 
@@ -684,3 +684,12 @@ All nodes reachable from a starting node by following at most N relationship ste
 ---
 
 *Built as part of the GraphRAG Masterclass at CodeVerra*
+
+---
+
+*This content is part of **Codeverra** — a platform for learning coding, data science, DSA, and AI from scratch.  
+Explore more: https://codeverra.com*
+
+---
+
+
