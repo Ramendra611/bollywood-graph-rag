@@ -1,0 +1,26 @@
+# Environment — never commit secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Neo4j data volumes (large, local only)
+neo4j_data/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
